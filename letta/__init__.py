@@ -1,4 +1,5 @@
-__version__ = "0.6.53"
+from importlib.metadata import version
+__version__ = version("pfund-letta")
 
 # import clients
 from letta.client.client import LocalClient, RESTClient, create_client
